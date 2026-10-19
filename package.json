@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:e2e": "playwright test",
-    "test": "node --test test/portfolio.test.cjs"
+    "test": "node --test test/*.test.cjs"
   },
   "homepage": "https://frontend.mkazi.live/",
   "dependencies": {
