@@ -8,9 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test": "node --test test/portfolio.test.cjs"
   },
-  "homepage": "https://mk-knight23.github.io/03-portfolio-frontend/",
+  "homepage": "https://frontend.mkazi.live/",
   "dependencies": {
     "gsap": "^3.12.5"
   },
@@ -19,5 +20,9 @@
     "@types/node": "^22.0.0",
     "typescript": "^5.9.3",
     "vite": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-knight23/MK-PixelFolio.git"
   }
 }
