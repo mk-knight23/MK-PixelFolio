@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "site": "https://frontend.mkazi.live/",
+  "repository": "https://github.com/mk-knight23/MK-PixelFolio",
+  "scope": "Technologies evidenced by this repository's package.json, not a comprehensive personal skills assessment",
+  "runtimeDependencies": [
+    "gsap"
+  ],
+  "developmentDependencies": [
+    "@playwright/test",
+    "@types/node",
+    "typescript",
+    "vite"
+  ],
+  "availableCommands": {
+    "production": "npm run build && npm start",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test",
+    "test": "node --test test/*.test.cjs"
+  }
+}
